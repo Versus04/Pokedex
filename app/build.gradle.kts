@@ -46,7 +46,7 @@ android {
 
 dependencies {
     val nav_version = "2.8.2"
-
+    implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.retrofit2:retrofit")
