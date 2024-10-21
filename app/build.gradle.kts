@@ -49,7 +49,7 @@ dependencies {
     implementation("com.jakewharton.timber:timber:5.0.1")
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.squareup.retrofit2:retrofit")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.google.dagger:hilt-android:2.51.1")
     ksp("com.google.dagger:hilt-android-compiler:2.51.1")
     implementation("io.coil-kt.coil3:coil-compose:3.0.0-rc01")
